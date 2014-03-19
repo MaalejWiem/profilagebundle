@@ -8,7 +8,7 @@
     "autoload": {
         "psr-0": { "aip\\Profilagebundle": "" }
     },
-    "target-dir": "aip/profilage-bundle",
+    "target-dir": "aip/ProfilageBundle",
     "extra": {
         "dbVersion": "20130906115738"
     }
