@@ -6,7 +6,7 @@
        
     },
     "autoload": {
-        "psr-0": { "aip\\Profilagebundle": "" }
+        "psr-0": { "Aip\\Profilagebundle": "" }
     },
     "target-dir": "Aip/ProfilageBundle",
     "extra": {
