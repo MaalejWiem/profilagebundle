@@ -19,7 +19,7 @@ class AipProfilageBundle extends PluginBundle implements ConfigurationProviderIn
     public function getConfiguration($environements)
     {
         $config= new ConfigurationBuilder();
-		return $config->addRoutingResource(__DIR__.'/Resource/config/routing.yml',null,'/');
+		return $config->addRoutingResource(__DIR__.'/Resources/config/routing.yml',null,'/');
     }
 	 public function suggestConfigurationFor(Bundle $bundle, $environment)
     {
@@ -27,7 +27,7 @@ class AipProfilageBundle extends PluginBundle implements ConfigurationProviderIn
             $config = new ConfigurationBuilder();
         
             // ajout d'un fichier de routing valable pour tous les environnements
-            $config->addRoutingResource(__DIR__.'/Resource/config/routing.yml',null,'/');
+            $config->addRoutingResource(__DIR__.'/Resources/config/routing.yml',null,'/');
          
             return $config;
         }
