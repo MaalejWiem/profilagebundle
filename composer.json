@@ -9,5 +9,8 @@
         "psr-0": { "aip\\ProfilageBundle": "" }
     },
     "target-dir": "aip/ProfilageBundle",
+    "extra": {
+        "dbVersion": "20130906115738"
+    }
     
 }
