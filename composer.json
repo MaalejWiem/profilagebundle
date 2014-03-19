@@ -1,5 +1,5 @@
 {
-    "name": "Aip/ProfilageBundle",
+    "name": "aip/profilage-bundle",
     "type": "claroline-plugin",
     "require": {
         "claroline/core-bundle": "~2.0"
